@@ -10,7 +10,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Repository
-@Transactional
 public class RoleDAOImp implements RoleDAO {
 
     @PersistenceContext

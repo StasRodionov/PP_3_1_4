@@ -10,7 +10,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Service
-@Transactional
 public class RoleServiceImp implements RoleService {
 
     private final RoleDAO roleDAO;
